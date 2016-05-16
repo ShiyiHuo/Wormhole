@@ -10,8 +10,8 @@ import java.util.NoSuchElementException;
 
 public class Worm {
 	private int V;   // # of vertices in the graph
-    public int W;   // # of wormholes in the graph
-    private DirectedEdge[] wormholeArray;
+    	public int W;   // # of wormholes in the graph
+	private DirectedEdge[] wormholeArray;
 	private SeparateChainingHashST<String,Vertex> hash1;
 	private SeparateChainingHashST<Integer,Vertex> hash2;
 	public AdjMatrixEdgeWeightedDigraph G;
